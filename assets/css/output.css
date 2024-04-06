@@ -580,8 +580,8 @@ video {
   right: 2.5rem;
 }
 
-.right-16 {
-  right: 4rem;
+.right-20 {
+  right: 5rem;
 }
 
 .top-0 {
@@ -596,20 +596,12 @@ video {
   top: 12rem;
 }
 
-.right-12 {
-  right: 3rem;
+.right-32 {
+  right: 8rem;
 }
 
-.right-1 {
-  right: 0.25rem;
-}
-
-.right-5 {
-  right: 1.25rem;
-}
-
-.right-8 {
-  right: 2rem;
+.right-52 {
+  right: 13rem;
 }
 
 .z-10 {
@@ -738,11 +730,6 @@ video {
 
 .w-96 {
   width: 24rem;
-}
-
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .w-full {
