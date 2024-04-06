@@ -1,4 +1,3 @@
-// menu bar
 const mobilemenuBtnEl = document.getElementById("mobilemenuBtn");
 const mobilemenuEl = document.getElementById("mobilemenu");
 const mobilemenuCloseBtn = document.getElementById("mobilemenuCloseBtn");
