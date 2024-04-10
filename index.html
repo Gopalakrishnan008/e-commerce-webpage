@@ -71,7 +71,7 @@
 
       <!-- cart -->
       <div class="ml-auto">
-        <div class="flex items-center sm:space-x-5 relative">
+        <div class="flex items-center sm:space-x-5">
           <button id="cart">
             <img
               src="./assets/img/icon-cart.svg"
@@ -86,13 +86,6 @@
               class="w-20 h-20 hover:cursor-pointer p-5"
             />
           </div>
-          <div
-            id="cartpopup"
-            class="absolute w-96 h-56 bg-white shadow-lg rounded-md z-10 right-20 top-24"
-          >
-            <h2 class="font-semibold border-b-2 border-gray-300 p-2">cart</h2>
-            <p class="text-center mt-16">Your cart is empty</p>
-          </div>
         </div>
       </div>
     </nav>
@@ -100,6 +93,13 @@
 
     <!-- Main content -->
     <main>
+      <div
+        id="cartpopup"
+        class="hidden bg-white shadow-lg rounded-md absolute h-56 w-full sm:w-96 z-10"
+      >
+        <h2 class="font-semibold border-b-2 border-gray-300 p-2">cart</h2>
+        <p class="text-center mt-16">Your cart is empty</p>
+      </div>
       <div class="sm:flex">
         <div>
           <!-- main img -->
@@ -192,7 +192,7 @@
           <!-- Description button -->
           <div class="sm:flex sm:space-x-4">
             <div
-              class="bg-gray-100 flex w-full sm:w-fit px-6 py-2 rounded-md space-x-40 pl-10 sm:pl-3 sm:space-x-8 mt-6"
+              class="bg-gray-100 flex w-full sm:w-fit px-6 py-2 rounded-md justify-between pl-10 sm:pl-3 sm:space-x-8 mt-6"
             >
               <button id="buttonMinus">
                 <img
